@@ -74,7 +74,6 @@ The top 10 countries that visited the site were:
                       };
 
         function drawCurrentChart() {
-          console.log(day, hour);
           var hourlyData = dailyData[day].hourlyData[hour] ? dailyData[day].hourlyData[hour] : [["Country", "Color", "Sessions"], ["United States", 0, 0]];
           var data = google.visualization.arrayToDataTable(hourlyData);
 
