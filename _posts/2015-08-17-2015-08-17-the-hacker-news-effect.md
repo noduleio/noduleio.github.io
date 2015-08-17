@@ -1,0 +1,119 @@
+---
+layout: post
+title: The Hacker News Effect
+description: Nodule.io is now in alpha/beta - and we made it to the front page of Hacker News!
+date:   2015-08-17
+category: blog
+tag: featured
+---
+
+So, [nodule.io](https://www.nodule.io) is now live in alpha/beta! And we made it to the front page of hacker news with our ["Show Hacker News"](https://news.ycombinator.com/item?id=10053115) post.
+
+Total number of sessions for the 13th/14th August while we were visible on Hacker News was just over 1700 sessions. I put together a quick and dirty visualisation of the sessions by hour and country at the bottom of this post.
+
+The top 10 countries that visited the site were:
+
+| Country | Sessions (percent) |
+|---------|--------------------|
+| United States | 934(52.68%) |
+| United Kingdom | 171(9.64%) |
+| Canada | 111(6.26%) |
+| Germany | 71(4.00%) |
+| India | 51(2.88%) |
+| Netherlands | 38(2.14%) |
+| France | 30(1.69%) |
+| Australia | 25(1.41%) |
+| Sweden | 24(1.35%) |
+| Italy | 23(1.30%) |
+
+<div markdown="0">
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["geochart", "corechart"]});
+      google.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+        var rawData = /* Country, Day, Hour, Sessions */
+          [["Argentina",13,11,1], ["Argentina",13,12,1], ["Argentina",13,14,2], ["Argentina",13,21,1], ["Argentina",14,3,1], ["Armenia",13,12,1], ["Australia",13,11,2], ["Australia",13,12,3], ["Australia",13,13,2], ["Australia",13,14,3], ["Australia",13,15,2], ["Australia",13,16,1], ["Australia",13,17,2], ["Australia",13,20,1], ["Australia",13,21,1], ["Australia",13,22,2], ["Australia",14,0,3], ["Australia",14,1,1], ["Australia",14,2,1], ["Australia",14,4,1], ["Austria",13,12,2], ["Austria",13,13,1], ["Austria",13,15,1], ["Austria",13,17,2], ["Austria",13,18,1], ["Bahamas",13,13,1], ["Belgium",13,12,1], ["Belgium",13,13,2], ["Belgium",13,14,3], ["Belgium",13,15,3], ["Belgium",13,16,2], ["Belgium",13,20,1], ["Brazil",13,12,8], ["Brazil",13,13,1], ["Brazil",13,14,1], ["Brazil",13,15,2], ["Brazil",13,16,2], ["Brazil",13,17,3], ["Brazil",13,19,1], ["Brazil",13,21,1], ["Brazil",14,0,1], ["Canada",13,11,2], ["Canada",13,12,13], ["Canada",13,13,9], ["Canada",13,14,10], ["Canada",13,15,27], ["Canada",13,16,19], ["Canada",13,17,13], ["Canada",13,18,4], ["Canada",13,19,1], ["Canada",13,20,1], ["Canada",13,21,1], ["Canada",13,22,4], ["Canada",13,23,2], ["Canada",14,0,1], ["Canada",14,1,2], ["Canada",14,2,1], ["Canada",14,5,1], ["Chile",13,15,1], ["Chile",13,16,1], ["China",13,13,1], ["China",13,14,2], ["China",14,5,1], ["China",14,6,1], ["China",14,11,1], ["Colombia",13,15,1], ["Colombia",13,21,1], ["Colombia",14,21,1], ["Croatia",13,11,1], ["Croatia",13,12,1], ["Croatia",13,13,3], ["Croatia",13,15,1], ["Cyprus",13,19,1], ["Czech Republic",13,12,2], ["Czech Republic",13,13,1], ["Czech Republic",13,14,2], ["Czech Republic",13,16,1], ["Czech Republic",14,11,1], ["Denmark",13,12,4], ["Denmark",13,13,3], ["Denmark",13,14,1], ["Denmark",13,15,2], ["Denmark",13,16,3], ["Estonia",13,12,1], ["Estonia",13,14,1], ["Ethiopia",13,14,1], ["Ethiopia",13,15,1], ["Finland",13,12,2], ["Finland",13,13,1], ["Finland",13,15,3], ["Finland",13,16,2], ["Finland",13,17,3], ["Finland",14,8,1], ["France",13,11,1], ["France",13,12,7], ["France",13,13,7], ["France",13,14,6], ["France",13,15,7], ["France",13,16,1], ["France",13,17,1], ["Germany",13,10,1], ["Germany",13,11,4], ["Germany",13,12,10], ["Germany",13,13,11], ["Germany",13,14,6], ["Germany",13,15,14], ["Germany",13,16,6], ["Germany",13,17,4], ["Germany",13,20,4], ["Germany",13,21,2], ["Germany",14,5,1], ["Germany",14,6,2], ["Germany",14,7,1], ["Germany",14,9,1], ["Germany",14,10,1], ["Germany",14,13,1], ["Germany",14,17,2], ["Greece",13,12,2], ["Greece",13,16,1], ["Hong Kong",13,12,2], ["Hong Kong",13,13,2], ["Hong Kong",13,17,1], ["Hong Kong",14,0,1], ["Hong Kong",14,2,1], ["Hong Kong",14,11,1], ["Hungary",13,12,1], ["Hungary",13,15,3], ["India",13,11,1], ["India",13,12,11], ["India",13,13,5], ["India",13,14,5], ["India",13,15,6], ["India",13,16,3], ["India",13,17,4], ["India",13,18,1], ["India",13,19,2], ["India",14,0,1], ["India",14,1,1], ["India",14,4,1], ["India",14,5,1], ["India",14,6,1], ["India",14,8,3], ["India",14,9,3], ["India",14,11,2], ["Indonesia",13,12,1], ["Indonesia",13,13,1], ["Indonesia",13,14,1], ["Indonesia",13,16,1], ["Indonesia",13,17,1], ["Indonesia",14,0,1], ["Ireland",13,12,1], ["Ireland",13,13,4], ["Ireland",13,14,1], ["Ireland",13,15,1], ["Ireland",13,16,1], ["Ireland",13,17,1], ["Ireland",13,21,2], ["Ireland",14,6,1], ["Israel",13,12,3], ["Israel",13,13,1], ["Israel",13,21,1], ["Israel",13,22,1], ["Italy",13,12,5], ["Italy",13,13,1], ["Italy",13,14,6], ["Italy",13,15,2], ["Italy",13,16,2], ["Italy",13,17,1], ["Italy",13,19,2], ["Italy",13,20,1], ["Italy",13,22,1], ["Italy",14,3,1], ["Italy",14,6,1], ["Japan",13,12,1], ["Japan",13,13,1], ["Japan",13,15,3], ["Japan",14,2,1], ["Japan",14,12,1], ["Latvia",13,15,1], ["Lithuania",13,11,1], ["Lithuania",13,14,1], ["Lithuania",13,15,1], ["Malaysia",13,13,1], ["Mexico",13,12,1], ["Mexico",13,14,1], ["Mexico",13,15,1], ["Mexico",13,16,1], ["Mexico",13,17,1], ["Mexico",14,2,1], ["Moldova",13,12,1], ["Morocco",13,12,1], ["Morocco",13,15,1], ["Morocco",13,21,1], ["Netherlands",13,12,6], ["Netherlands",13,13,5], ["Netherlands",13,14,5], ["Netherlands",13,15,5], ["Netherlands",13,16,6], ["Netherlands",13,17,2], ["Netherlands",13,18,1], ["Netherlands",13,19,1], ["Netherlands",13,20,1], ["Netherlands",13,21,1], ["Netherlands",13,22,1], ["Netherlands",14,0,1], ["Netherlands",14,6,1], ["Netherlands",14,7,1], ["Netherlands",14,19,1], ["New Zealand",13,10,1], ["New Zealand",13,20,1], ["New Zealand",13,21,2], ["Norway",13,11,1], ["Norway",13,12,1], ["Norway",13,14,1], ["Norway",13,15,1], ["Norway",13,16,2], ["Norway",13,17,1], ["Norway",13,22,1], ["Pakistan",13,13,1], ["Peru",13,12,1], ["Philippines",13,13,1], ["Philippines",13,15,1], ["Poland",13,12,1], ["Poland",13,13,5], ["Poland",13,14,1], ["Poland",13,15,2], ["Poland",13,16,1], ["Poland",13,21,1], ["Portugal",13,12,1], ["Portugal",13,14,2], ["Portugal",13,17,1], ["Portugal",13,21,1], ["Romania",13,13,1], ["Romania",13,16,1], ["Romania",13,18,1], ["Romania",14,6,1], ["Russia",13,10,1], ["Russia",13,12,1], ["Russia",13,15,3], ["Russia",13,16,1], ["Russia",13,17,3], ["Russia",14,9,1], ["Serbia",13,14,1], ["Serbia",13,17,1], ["Serbia",14,18,1], ["Singapore",13,10,1], ["Singapore",13,12,2], ["Singapore",13,13,1], ["Singapore",13,16,2], ["Singapore",14,1,1], ["Slovakia",13,13,1], ["Slovenia",13,13,1], ["Slovenia",13,15,1], ["South Africa",13,12,4], ["South Africa",13,14,3], ["South Africa",13,15,1], ["South Africa",13,19,1], ["South Africa",14,5,1], ["South Korea",13,18,1], ["South Korea",14,7,1], ["Spain",13,13,4], ["Spain",13,14,3], ["Spain",13,15,2], ["Spain",13,16,1], ["Spain",13,17,1], ["Spain",13,19,3], ["Spain",13,21,1], ["Spain",13,22,1], ["Spain",14,7,1], ["Sweden",13,11,1], ["Sweden",13,12,4], ["Sweden",13,13,5], ["Sweden",13,14,4], ["Sweden",13,15,2], ["Sweden",13,16,2], ["Sweden",13,17,1], ["Sweden",13,20,1], ["Sweden",13,21,1], ["Sweden",14,0,1], ["Sweden",14,8,1], ["Sweden",14,13,1], ["Switzerland",13,12,2], ["Switzerland",13,13,2], ["Switzerland",13,15,1], ["Switzerland",13,16,1], ["Switzerland",13,23,1], ["Taiwan",13,8,1], ["Taiwan",13,12,2], ["Taiwan",13,13,1], ["Taiwan",13,14,2], ["Taiwan",13,16,2], ["Taiwan",14,1,1], ["Thailand",13,13,1], ["Thailand",13,20,1], ["Trinidad & Tobago",13,14,1], ["Turkey",13,12,2], ["Turkey",13,13,2], ["Turkey",13,14,2], ["Turkey",13,15,2], ["Turkey",14,0,1], ["Turkey",14,8,1], ["Turkey",14,9,1], ["Uganda",13,13,1], ["Ukraine",13,12,2], ["United Arab Emirates",13,15,2], ["United Kingdom",13,11,6], ["United Kingdom",13,12,41], ["United Kingdom",13,13,33], ["United Kingdom",13,14,17], ["United Kingdom",13,15,30], ["United Kingdom",13,16,13], ["United Kingdom",13,17,5], ["United Kingdom",13,18,1], ["United Kingdom",13,19,4], ["United Kingdom",13,21,4], ["United Kingdom",13,22,1], ["United Kingdom",13,23,1], ["United Kingdom",14,8,6], ["United Kingdom",14,11,1], ["United Kingdom",14,12,4], ["United Kingdom",14,14,1], ["United Kingdom",14,16,1], ["United Kingdom",14,17,1], ["United Kingdom",14,18,1], ["United States",13,10,2], ["United States",13,11,11], ["United States",13,12,94], ["United States",13,13,119], ["United States",13,14,136], ["United States",13,15,150], ["United States",13,16,124], ["United States",13,17,109], ["United States",13,18,22], ["United States",13,19,26], ["United States",13,20,27], ["United States",13,21,14], ["United States",13,22,12], ["United States",13,23,10], ["United States",14,0,11], ["United States",14,1,9], ["United States",14,2,11], ["United States",14,3,4], ["United States",14,4,5], ["United States",14,5,2], ["United States",14,6,3], ["United States",14,7,1], ["United States",14,8,1], ["United States",14,9,3], ["United States",14,10,1], ["United States",14,11,2], ["United States",14,12,4], ["United States",14,13,3], ["United States",14,14,3], ["United States",14,15,3], ["United States",14,16,2], ["United States",14,17,1], ["United States",14,18,2], ["United States",14,19,2], ["United States",14,20,1], ["United States",14,21,3], ["United States",14,23,1], ["Vietnam",13,12,1], ["Vietnam",13,17,1], ["Vietnam",13,18,1], ["Vietnam",14,3,1]]
+
+        var dailyData = rawData.reduce(function(data, row) {
+            if(!data[row[1]]) {
+              data[row[1]] = { hourlyData: {} };
+            }
+            if(!data[row[1]].hourlyData[row[2]]) {
+              data[row[1]].hourlyData[row[2]] = [["Country", "Color", "Sessions"]];
+            }
+            data[row[1]].hourlyData[row[2]].push([row[0], Math.log(row[3]), row[3]]);
+            return data;
+          }, {});
+
+        var options = {
+          bar: {groupWidth: "95%"},
+          legend: { position: "none" },
+          width: "100%",
+          height: 300
+        };
+
+        var barChart = new google.visualization.ColumnChart(document.getElementById("chart_div"));
+
+        var day = 13;
+        var hour = 0;
+        var chart = null;
+
+        var mapChart = new google.visualization.GeoChart(document.getElementById('regions_div'));          
+
+        var maxValue = rawData.reduce(function(max, row) {
+          return Math.max(max, Math.log(row[3]));
+        }, 0);
+        var options = { colorAxis : {minValue: 0, maxValue: maxValue, colors: ['#f5f5f5', '#FFAA00']},
+                        // sizeAxis: { minValue: 50, maxValue: maxValue },
+                        defaultColor: '#f5f5f5',
+                        legend: 'none',
+                        width: "100%"
+                        // displayMode: 'markers'
+                      };
+
+        function drawCurrentChart() {
+          console.log(day, hour);
+          var hourlyData = dailyData[day].hourlyData[hour] ? dailyData[day].hourlyData[hour] : [["Country", "Color", "Sessions"], ["United States", 0, 0]];
+          var data = google.visualization.arrayToDataTable(hourlyData);
+
+          var sessions = 0;
+          for(var i = 1; i < hourlyData.length; i++) {
+            sessions += hourlyData[i][2]
+          }
+
+          document.getElementById('map_title').innerText = "August " + day + ", " + hour + " GMT, Sessions: " + sessions;
+
+          mapChart.draw(data, options);
+
+          var sessionsByHour = [["Time","Sessions", { role: "style" }]]
+          for(var d=13; d<=14; d++) {
+            for(var h = 0; h<24; h++) {
+              var hourlyData = dailyData[d].hourlyData[h] ? dailyData[d].hourlyData[h] : [];
+              sessionsByHour.push([d+" Aug, " + h + " GMT", 
+                hourlyData.slice(1).reduce(function(sum, row) { return sum + row[2] }, 0),
+                hour==h && day == d ?  "color: #FFAA00" : "color: #0000FF" ]);
+            }
+          }
+          var data = google.visualization.arrayToDataTable(sessionsByHour);
+          var view = new google.visualization.DataView(data);
+          view.setColumns([0, 1, 2]);
+          barChart.draw(view, options);
+
+          hour = hour +1;
+          if(hour > 23) {
+            hour = 0;
+            day = day + 1;
+            if(day > 14) {
+              day = 13;
+            }
+          }
+        }
+        window.setInterval(drawCurrentChart, 200);
+      }
+    </script>
+    <h1 id=map_title></h1>
+    <div id="chart_div" style="width: 100%; height: 300px;"></div>
+    <div id="regions_div" style="width: 100%; height: 500px;"></div>
+</div>

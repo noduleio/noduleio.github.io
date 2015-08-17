@@ -1,34 +1,36 @@
 # Build settings
 markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
 highlighter: pygments
 gems:
   - jemoji
-  
-# Site settings
-title: "Mediator"
-description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
 
-email: a-mail@mail.mail
+# Site settings
+title: "nodule.io"
+description: > # this means to ignore newlines until "email:"
+   Making Bluetooth Low Energy Work 
+
+email: support@nodule.io
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/favicon.png"
 # blog cover
 cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
+name: 'CMG Research Ltd'
+author: 'CMG Research Ltd'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "http://blog.nodule.io" # the base hostname & protocol for your site
 baseurl: ""
 
 # social icons and sharing options
 social:
   - icon:	twitter
-    url:	https://twitter.com/dirkfabisch
-    desc: Follow me on twitter
+    url:	https://twitter.com/noduleio
+    desc: Follow us on twitter
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
@@ -41,8 +43,8 @@ social:
 #    share_link: "&amp;u="
 
   - icon:	github
-    url:	https://github.com/dirkfabisch
-    desc:	Fork me on github
+    url:	https://github.com/noduleio
+    desc:	View us on github
     share_url:
     share_title:
     share_link:
