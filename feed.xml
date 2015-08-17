@@ -1,114 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mediator</title>
-    <description>A Jekyll theme - Medium inspired
+    <title>nodule.io</title>
+    <description>Making Bluetooth Low Energy Work 
 </description>
-    <link>http://myblog.***.***/</link>
-    <atom:link href="http://myblog.***.***/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 17 Aug 2015 10:33:50 +0100</pubDate>
-    <lastBuildDate>Mon, 17 Aug 2015 10:33:50 +0100</lastBuildDate>
+    <link>http://blog.nodule.io/</link>
+    <atom:link href="http://blog.nodule.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 17 Aug 2015 13:36:29 +0100</pubDate>
+    <lastBuildDate>Mon, 17 Aug 2015 13:36:29 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Mediator Features</title>
-        <description>&lt;h1&gt;Mediator Formats and CSS features&lt;/h1&gt;
+        <title>The Hacker News Effect</title>
+        <description>&lt;p&gt;So, &lt;a href=&quot;https://www.nodule.io&quot;&gt;nodule.io&lt;/a&gt; is now live in alpha/beta! And we made it to the front page of hacker news with our &lt;a href=&quot;https://news.ycombinator.com/item?id=10053115&quot;&gt;&amp;quot;Show Hacker News&amp;quot;&lt;/a&gt; post.&lt;/p&gt;
 
-&lt;p&gt;Examples for different formats and css features&lt;/p&gt;
+&lt;p&gt;Total number of sessions for the 13th/14th August while we were visible on Hacker News was just over 1700 sessions. I put together a quick and dirty visualisation of the sessions by hour and country at the bottom of this post.&lt;/p&gt;
 
-&lt;h1&gt;Header Formats&lt;/h1&gt;
+&lt;p&gt;The top 10 countries that visited the site were:&lt;/p&gt;
 
-&lt;h1&gt;Header1&lt;/h1&gt;
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Country&lt;/th&gt;
+&lt;th&gt;Sessions (percent)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;United States&lt;/td&gt;
+&lt;td&gt;934(52.68%)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;United Kingdom&lt;/td&gt;
+&lt;td&gt;171(9.64%)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Canada&lt;/td&gt;
+&lt;td&gt;111(6.26%)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Germany&lt;/td&gt;
+&lt;td&gt;71(4.00%)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;India&lt;/td&gt;
+&lt;td&gt;51(2.88%)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Netherlands&lt;/td&gt;
+&lt;td&gt;38(2.14%)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;France&lt;/td&gt;
+&lt;td&gt;30(1.69%)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Australia&lt;/td&gt;
+&lt;td&gt;25(1.41%)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sweden&lt;/td&gt;
+&lt;td&gt;24(1.35%)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Italy&lt;/td&gt;
+&lt;td&gt;23(1.30%)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
 
-&lt;h2&gt;Header2&lt;/h2&gt;
+&lt;div markdown=&quot;0&quot;&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;https://www.google.com/jsapi&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+      google.load(&quot;visualization&quot;, &quot;1&quot;, {packages:[&quot;geochart&quot;, &quot;corechart&quot;]});
+      google.setOnLoadCallback(drawRegionsMap);
 
-&lt;h1&gt;Blockquotes&lt;/h1&gt;
+      function drawRegionsMap() {
+        var rawData = /* Country, Day, Hour, Sessions */
+          [[&quot;Argentina&quot;,13,11,1], [&quot;Argentina&quot;,13,12,1], [&quot;Argentina&quot;,13,14,2], [&quot;Argentina&quot;,13,21,1], [&quot;Argentina&quot;,14,3,1], [&quot;Armenia&quot;,13,12,1], [&quot;Australia&quot;,13,11,2], [&quot;Australia&quot;,13,12,3], [&quot;Australia&quot;,13,13,2], [&quot;Australia&quot;,13,14,3], [&quot;Australia&quot;,13,15,2], [&quot;Australia&quot;,13,16,1], [&quot;Australia&quot;,13,17,2], [&quot;Australia&quot;,13,20,1], [&quot;Australia&quot;,13,21,1], [&quot;Australia&quot;,13,22,2], [&quot;Australia&quot;,14,0,3], [&quot;Australia&quot;,14,1,1], [&quot;Australia&quot;,14,2,1], [&quot;Australia&quot;,14,4,1], [&quot;Austria&quot;,13,12,2], [&quot;Austria&quot;,13,13,1], [&quot;Austria&quot;,13,15,1], [&quot;Austria&quot;,13,17,2], [&quot;Austria&quot;,13,18,1], [&quot;Bahamas&quot;,13,13,1], [&quot;Belgium&quot;,13,12,1], [&quot;Belgium&quot;,13,13,2], [&quot;Belgium&quot;,13,14,3], [&quot;Belgium&quot;,13,15,3], [&quot;Belgium&quot;,13,16,2], [&quot;Belgium&quot;,13,20,1], [&quot;Brazil&quot;,13,12,8], [&quot;Brazil&quot;,13,13,1], [&quot;Brazil&quot;,13,14,1], [&quot;Brazil&quot;,13,15,2], [&quot;Brazil&quot;,13,16,2], [&quot;Brazil&quot;,13,17,3], [&quot;Brazil&quot;,13,19,1], [&quot;Brazil&quot;,13,21,1], [&quot;Brazil&quot;,14,0,1], [&quot;Canada&quot;,13,11,2], [&quot;Canada&quot;,13,12,13], [&quot;Canada&quot;,13,13,9], [&quot;Canada&quot;,13,14,10], [&quot;Canada&quot;,13,15,27], [&quot;Canada&quot;,13,16,19], [&quot;Canada&quot;,13,17,13], [&quot;Canada&quot;,13,18,4], [&quot;Canada&quot;,13,19,1], [&quot;Canada&quot;,13,20,1], [&quot;Canada&quot;,13,21,1], [&quot;Canada&quot;,13,22,4], [&quot;Canada&quot;,13,23,2], [&quot;Canada&quot;,14,0,1], [&quot;Canada&quot;,14,1,2], [&quot;Canada&quot;,14,2,1], [&quot;Canada&quot;,14,5,1], [&quot;Chile&quot;,13,15,1], [&quot;Chile&quot;,13,16,1], [&quot;China&quot;,13,13,1], [&quot;China&quot;,13,14,2], [&quot;China&quot;,14,5,1], [&quot;China&quot;,14,6,1], [&quot;China&quot;,14,11,1], [&quot;Colombia&quot;,13,15,1], [&quot;Colombia&quot;,13,21,1], [&quot;Colombia&quot;,14,21,1], [&quot;Croatia&quot;,13,11,1], [&quot;Croatia&quot;,13,12,1], [&quot;Croatia&quot;,13,13,3], [&quot;Croatia&quot;,13,15,1], [&quot;Cyprus&quot;,13,19,1], [&quot;Czech Republic&quot;,13,12,2], [&quot;Czech Republic&quot;,13,13,1], [&quot;Czech Republic&quot;,13,14,2], [&quot;Czech Republic&quot;,13,16,1], [&quot;Czech Republic&quot;,14,11,1], [&quot;Denmark&quot;,13,12,4], [&quot;Denmark&quot;,13,13,3], [&quot;Denmark&quot;,13,14,1], [&quot;Denmark&quot;,13,15,2], [&quot;Denmark&quot;,13,16,3], [&quot;Estonia&quot;,13,12,1], [&quot;Estonia&quot;,13,14,1], [&quot;Ethiopia&quot;,13,14,1], [&quot;Ethiopia&quot;,13,15,1], [&quot;Finland&quot;,13,12,2], [&quot;Finland&quot;,13,13,1], [&quot;Finland&quot;,13,15,3], [&quot;Finland&quot;,13,16,2], [&quot;Finland&quot;,13,17,3], [&quot;Finland&quot;,14,8,1], [&quot;France&quot;,13,11,1], [&quot;France&quot;,13,12,7], [&quot;France&quot;,13,13,7], [&quot;France&quot;,13,14,6], [&quot;France&quot;,13,15,7], [&quot;France&quot;,13,16,1], [&quot;France&quot;,13,17,1], [&quot;Germany&quot;,13,10,1], [&quot;Germany&quot;,13,11,4], [&quot;Germany&quot;,13,12,10], [&quot;Germany&quot;,13,13,11], [&quot;Germany&quot;,13,14,6], [&quot;Germany&quot;,13,15,14], [&quot;Germany&quot;,13,16,6], [&quot;Germany&quot;,13,17,4], [&quot;Germany&quot;,13,20,4], [&quot;Germany&quot;,13,21,2], [&quot;Germany&quot;,14,5,1], [&quot;Germany&quot;,14,6,2], [&quot;Germany&quot;,14,7,1], [&quot;Germany&quot;,14,9,1], [&quot;Germany&quot;,14,10,1], [&quot;Germany&quot;,14,13,1], [&quot;Germany&quot;,14,17,2], [&quot;Greece&quot;,13,12,2], [&quot;Greece&quot;,13,16,1], [&quot;Hong Kong&quot;,13,12,2], [&quot;Hong Kong&quot;,13,13,2], [&quot;Hong Kong&quot;,13,17,1], [&quot;Hong Kong&quot;,14,0,1], [&quot;Hong Kong&quot;,14,2,1], [&quot;Hong Kong&quot;,14,11,1], [&quot;Hungary&quot;,13,12,1], [&quot;Hungary&quot;,13,15,3], [&quot;India&quot;,13,11,1], [&quot;India&quot;,13,12,11], [&quot;India&quot;,13,13,5], [&quot;India&quot;,13,14,5], [&quot;India&quot;,13,15,6], [&quot;India&quot;,13,16,3], [&quot;India&quot;,13,17,4], [&quot;India&quot;,13,18,1], [&quot;India&quot;,13,19,2], [&quot;India&quot;,14,0,1], [&quot;India&quot;,14,1,1], [&quot;India&quot;,14,4,1], [&quot;India&quot;,14,5,1], [&quot;India&quot;,14,6,1], [&quot;India&quot;,14,8,3], [&quot;India&quot;,14,9,3], [&quot;India&quot;,14,11,2], [&quot;Indonesia&quot;,13,12,1], [&quot;Indonesia&quot;,13,13,1], [&quot;Indonesia&quot;,13,14,1], [&quot;Indonesia&quot;,13,16,1], [&quot;Indonesia&quot;,13,17,1], [&quot;Indonesia&quot;,14,0,1], [&quot;Ireland&quot;,13,12,1], [&quot;Ireland&quot;,13,13,4], [&quot;Ireland&quot;,13,14,1], [&quot;Ireland&quot;,13,15,1], [&quot;Ireland&quot;,13,16,1], [&quot;Ireland&quot;,13,17,1], [&quot;Ireland&quot;,13,21,2], [&quot;Ireland&quot;,14,6,1], [&quot;Israel&quot;,13,12,3], [&quot;Israel&quot;,13,13,1], [&quot;Israel&quot;,13,21,1], [&quot;Israel&quot;,13,22,1], [&quot;Italy&quot;,13,12,5], [&quot;Italy&quot;,13,13,1], [&quot;Italy&quot;,13,14,6], [&quot;Italy&quot;,13,15,2], [&quot;Italy&quot;,13,16,2], [&quot;Italy&quot;,13,17,1], [&quot;Italy&quot;,13,19,2], [&quot;Italy&quot;,13,20,1], [&quot;Italy&quot;,13,22,1], [&quot;Italy&quot;,14,3,1], [&quot;Italy&quot;,14,6,1], [&quot;Japan&quot;,13,12,1], [&quot;Japan&quot;,13,13,1], [&quot;Japan&quot;,13,15,3], [&quot;Japan&quot;,14,2,1], [&quot;Japan&quot;,14,12,1], [&quot;Latvia&quot;,13,15,1], [&quot;Lithuania&quot;,13,11,1], [&quot;Lithuania&quot;,13,14,1], [&quot;Lithuania&quot;,13,15,1], [&quot;Malaysia&quot;,13,13,1], [&quot;Mexico&quot;,13,12,1], [&quot;Mexico&quot;,13,14,1], [&quot;Mexico&quot;,13,15,1], [&quot;Mexico&quot;,13,16,1], [&quot;Mexico&quot;,13,17,1], [&quot;Mexico&quot;,14,2,1], [&quot;Moldova&quot;,13,12,1], [&quot;Morocco&quot;,13,12,1], [&quot;Morocco&quot;,13,15,1], [&quot;Morocco&quot;,13,21,1], [&quot;Netherlands&quot;,13,12,6], [&quot;Netherlands&quot;,13,13,5], [&quot;Netherlands&quot;,13,14,5], [&quot;Netherlands&quot;,13,15,5], [&quot;Netherlands&quot;,13,16,6], [&quot;Netherlands&quot;,13,17,2], [&quot;Netherlands&quot;,13,18,1], [&quot;Netherlands&quot;,13,19,1], [&quot;Netherlands&quot;,13,20,1], [&quot;Netherlands&quot;,13,21,1], [&quot;Netherlands&quot;,13,22,1], [&quot;Netherlands&quot;,14,0,1], [&quot;Netherlands&quot;,14,6,1], [&quot;Netherlands&quot;,14,7,1], [&quot;Netherlands&quot;,14,19,1], [&quot;New Zealand&quot;,13,10,1], [&quot;New Zealand&quot;,13,20,1], [&quot;New Zealand&quot;,13,21,2], [&quot;Norway&quot;,13,11,1], [&quot;Norway&quot;,13,12,1], [&quot;Norway&quot;,13,14,1], [&quot;Norway&quot;,13,15,1], [&quot;Norway&quot;,13,16,2], [&quot;Norway&quot;,13,17,1], [&quot;Norway&quot;,13,22,1], [&quot;Pakistan&quot;,13,13,1], [&quot;Peru&quot;,13,12,1], [&quot;Philippines&quot;,13,13,1], [&quot;Philippines&quot;,13,15,1], [&quot;Poland&quot;,13,12,1], [&quot;Poland&quot;,13,13,5], [&quot;Poland&quot;,13,14,1], [&quot;Poland&quot;,13,15,2], [&quot;Poland&quot;,13,16,1], [&quot;Poland&quot;,13,21,1], [&quot;Portugal&quot;,13,12,1], [&quot;Portugal&quot;,13,14,2], [&quot;Portugal&quot;,13,17,1], [&quot;Portugal&quot;,13,21,1], [&quot;Romania&quot;,13,13,1], [&quot;Romania&quot;,13,16,1], [&quot;Romania&quot;,13,18,1], [&quot;Romania&quot;,14,6,1], [&quot;Russia&quot;,13,10,1], [&quot;Russia&quot;,13,12,1], [&quot;Russia&quot;,13,15,3], [&quot;Russia&quot;,13,16,1], [&quot;Russia&quot;,13,17,3], [&quot;Russia&quot;,14,9,1], [&quot;Serbia&quot;,13,14,1], [&quot;Serbia&quot;,13,17,1], [&quot;Serbia&quot;,14,18,1], [&quot;Singapore&quot;,13,10,1], [&quot;Singapore&quot;,13,12,2], [&quot;Singapore&quot;,13,13,1], [&quot;Singapore&quot;,13,16,2], [&quot;Singapore&quot;,14,1,1], [&quot;Slovakia&quot;,13,13,1], [&quot;Slovenia&quot;,13,13,1], [&quot;Slovenia&quot;,13,15,1], [&quot;South Africa&quot;,13,12,4], [&quot;South Africa&quot;,13,14,3], [&quot;South Africa&quot;,13,15,1], [&quot;South Africa&quot;,13,19,1], [&quot;South Africa&quot;,14,5,1], [&quot;South Korea&quot;,13,18,1], [&quot;South Korea&quot;,14,7,1], [&quot;Spain&quot;,13,13,4], [&quot;Spain&quot;,13,14,3], [&quot;Spain&quot;,13,15,2], [&quot;Spain&quot;,13,16,1], [&quot;Spain&quot;,13,17,1], [&quot;Spain&quot;,13,19,3], [&quot;Spain&quot;,13,21,1], [&quot;Spain&quot;,13,22,1], [&quot;Spain&quot;,14,7,1], [&quot;Sweden&quot;,13,11,1], [&quot;Sweden&quot;,13,12,4], [&quot;Sweden&quot;,13,13,5], [&quot;Sweden&quot;,13,14,4], [&quot;Sweden&quot;,13,15,2], [&quot;Sweden&quot;,13,16,2], [&quot;Sweden&quot;,13,17,1], [&quot;Sweden&quot;,13,20,1], [&quot;Sweden&quot;,13,21,1], [&quot;Sweden&quot;,14,0,1], [&quot;Sweden&quot;,14,8,1], [&quot;Sweden&quot;,14,13,1], [&quot;Switzerland&quot;,13,12,2], [&quot;Switzerland&quot;,13,13,2], [&quot;Switzerland&quot;,13,15,1], [&quot;Switzerland&quot;,13,16,1], [&quot;Switzerland&quot;,13,23,1], [&quot;Taiwan&quot;,13,8,1], [&quot;Taiwan&quot;,13,12,2], [&quot;Taiwan&quot;,13,13,1], [&quot;Taiwan&quot;,13,14,2], [&quot;Taiwan&quot;,13,16,2], [&quot;Taiwan&quot;,14,1,1], [&quot;Thailand&quot;,13,13,1], [&quot;Thailand&quot;,13,20,1], [&quot;Trinidad &amp; Tobago&quot;,13,14,1], [&quot;Turkey&quot;,13,12,2], [&quot;Turkey&quot;,13,13,2], [&quot;Turkey&quot;,13,14,2], [&quot;Turkey&quot;,13,15,2], [&quot;Turkey&quot;,14,0,1], [&quot;Turkey&quot;,14,8,1], [&quot;Turkey&quot;,14,9,1], [&quot;Uganda&quot;,13,13,1], [&quot;Ukraine&quot;,13,12,2], [&quot;United Arab Emirates&quot;,13,15,2], [&quot;United Kingdom&quot;,13,11,6], [&quot;United Kingdom&quot;,13,12,41], [&quot;United Kingdom&quot;,13,13,33], [&quot;United Kingdom&quot;,13,14,17], [&quot;United Kingdom&quot;,13,15,30], [&quot;United Kingdom&quot;,13,16,13], [&quot;United Kingdom&quot;,13,17,5], [&quot;United Kingdom&quot;,13,18,1], [&quot;United Kingdom&quot;,13,19,4], [&quot;United Kingdom&quot;,13,21,4], [&quot;United Kingdom&quot;,13,22,1], [&quot;United Kingdom&quot;,13,23,1], [&quot;United Kingdom&quot;,14,8,6], [&quot;United Kingdom&quot;,14,11,1], [&quot;United Kingdom&quot;,14,12,4], [&quot;United Kingdom&quot;,14,14,1], [&quot;United Kingdom&quot;,14,16,1], [&quot;United Kingdom&quot;,14,17,1], [&quot;United Kingdom&quot;,14,18,1], [&quot;United States&quot;,13,10,2], [&quot;United States&quot;,13,11,11], [&quot;United States&quot;,13,12,94], [&quot;United States&quot;,13,13,119], [&quot;United States&quot;,13,14,136], [&quot;United States&quot;,13,15,150], [&quot;United States&quot;,13,16,124], [&quot;United States&quot;,13,17,109], [&quot;United States&quot;,13,18,22], [&quot;United States&quot;,13,19,26], [&quot;United States&quot;,13,20,27], [&quot;United States&quot;,13,21,14], [&quot;United States&quot;,13,22,12], [&quot;United States&quot;,13,23,10], [&quot;United States&quot;,14,0,11], [&quot;United States&quot;,14,1,9], [&quot;United States&quot;,14,2,11], [&quot;United States&quot;,14,3,4], [&quot;United States&quot;,14,4,5], [&quot;United States&quot;,14,5,2], [&quot;United States&quot;,14,6,3], [&quot;United States&quot;,14,7,1], [&quot;United States&quot;,14,8,1], [&quot;United States&quot;,14,9,3], [&quot;United States&quot;,14,10,1], [&quot;United States&quot;,14,11,2], [&quot;United States&quot;,14,12,4], [&quot;United States&quot;,14,13,3], [&quot;United States&quot;,14,14,3], [&quot;United States&quot;,14,15,3], [&quot;United States&quot;,14,16,2], [&quot;United States&quot;,14,17,1], [&quot;United States&quot;,14,18,2], [&quot;United States&quot;,14,19,2], [&quot;United States&quot;,14,20,1], [&quot;United States&quot;,14,21,3], [&quot;United States&quot;,14,23,1], [&quot;Vietnam&quot;,13,12,1], [&quot;Vietnam&quot;,13,17,1], [&quot;Vietnam&quot;,13,18,1], [&quot;Vietnam&quot;,14,3,1]]
 
-&lt;blockquote&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus&lt;/p&gt;
-&lt;/blockquote&gt;
+        var dailyData = rawData.reduce(function(data, row) {
+            if(!data[row[1]]) {
+              data[row[1]] = { hourlyData: {} };
+            }
+            if(!data[row[1]].hourlyData[row[2]]) {
+              data[row[1]].hourlyData[row[2]] = [[&quot;Country&quot;, &quot;Color&quot;, &quot;Sessions&quot;]];
+            }
+            data[row[1]].hourlyData[row[2]].push([row[0], Math.log(row[3]), row[3]]);
+            return data;
+          }, {});
 
-&lt;h1&gt;Lists&lt;/h1&gt;
+        var options = {
+          bar: {groupWidth: &quot;95%&quot;},
+          legend: { position: &quot;none&quot; },
+          width: &quot;100%&quot;,
+          height: 300
+        };
 
-&lt;h2&gt;orderd lists&lt;/h2&gt;
+        var barChart = new google.visualization.ColumnChart(document.getElementById(&quot;chart_div&quot;));
 
-&lt;ol&gt;
-&lt;li&gt;one&lt;/li&gt;
-&lt;li&gt;two&lt;/li&gt;
-&lt;li&gt;three&lt;/li&gt;
-&lt;/ol&gt;
+        var day = 13;
+        var hour = 0;
+        var chart = null;
 
-&lt;h2&gt;unorderd lists&lt;/h2&gt;
+        var mapChart = new google.visualization.GeoChart(document.getElementById(&#39;regions_div&#39;));          
 
-&lt;ul&gt;
-&lt;li&gt;Apple&lt;/li&gt;
-&lt;li&gt;Banana&lt;/li&gt;
-&lt;li&gt;Plum&lt;/li&gt;
-&lt;/ul&gt;
+        var maxValue = rawData.reduce(function(max, row) {
+          return Math.max(max, Math.log(row[3]));
+        }, 0);
+        var options = { colorAxis : {minValue: 0, maxValue: maxValue, colors: [&#39;#f5f5f5&#39;, &#39;#FFAA00&#39;]},
+                        // sizeAxis: { minValue: 50, maxValue: maxValue },
+                        defaultColor: &#39;#f5f5f5&#39;,
+                        legend: &#39;none&#39;,
+                        width: &quot;100%&quot;
+                        // displayMode: &#39;markers&#39;
+                      };
 
-&lt;h1&gt;Links&lt;/h1&gt;
+        function drawCurrentChart() {
+          console.log(day, hour);
+          var hourlyData = dailyData[day].hourlyData[hour] ? dailyData[day].hourlyData[hour] : [[&quot;Country&quot;, &quot;Color&quot;, &quot;Sessions&quot;], [&quot;United States&quot;, 0, 0]];
+          var data = google.visualization.arrayToDataTable(hourlyData);
 
-&lt;p&gt;This is an &lt;a href=&quot;http://example.com/&quot; title=&quot;With a Title&quot;&gt;example link&lt;/a&gt;.&lt;/p&gt;
+          var sessions = 0;
+          for(var i = 1; i &lt; hourlyData.length; i++) {
+            sessions += hourlyData[i][2]
+          }
 
-&lt;h1&gt;Combinations&lt;/h1&gt;
+          document.getElementById(&#39;map_title&#39;).innerText = &quot;August &quot; + day + &quot;, &quot; + hour + &quot; GMT, Sessions: &quot; + sessions;
 
-&lt;blockquote&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus&lt;/p&gt;
+          mapChart.draw(data, options);
 
-&lt;ul&gt;
-&lt;li&gt;Apple&lt;/li&gt;
-&lt;li&gt;Banana&lt;/li&gt;
-&lt;li&gt;Plum&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
+          var sessionsByHour = [[&quot;Time&quot;,&quot;Sessions&quot;, { role: &quot;style&quot; }]]
+          for(var d=13; d&lt;=14; d++) {
+            for(var h = 0; h&lt;24; h++) {
+              var hourlyData = dailyData[d].hourlyData[h] ? dailyData[d].hourlyData[h] : [];
+              sessionsByHour.push([d+&quot; Aug, &quot; + h + &quot; GMT&quot;, 
+                hourlyData.slice(1).reduce(function(sum, row) { return sum + row[2] }, 0),
+                hour==h &amp;&amp; day == d ?  &quot;color: #FFAA00&quot; : &quot;color: #0000FF&quot; ]);
+            }
+          }
+          var data = google.visualization.arrayToDataTable(sessionsByHour);
+          var view = new google.visualization.DataView(data);
+          view.setColumns([0, 1, 2]);
+          barChart.draw(view, options);
+
+          hour = hour +1;
+          if(hour &gt; 23) {
+            hour = 0;
+            day = day + 1;
+            if(day &gt; 14) {
+              day = 13;
+            }
+          }
+        }
+        window.setInterval(drawCurrentChart, 200);
+      }
+    &lt;/script&gt;
+    &lt;h1 id=map_title&gt;&lt;/h1&gt;
+    &lt;div id=&quot;chart_div&quot; style=&quot;width: 100%; height: 300px;&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;regions_div&quot; style=&quot;width: 100%; height: 500px;&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
 </description>
-        <pubDate>Sun, 30 Nov 2014 14:34:25 +0000</pubDate>
-        <link>http://myblog.***.***/mediator/feature/2014/11/30/mediator_features.html</link>
-        <guid isPermaLink="true">http://myblog.***.***/mediator/feature/2014/11/30/mediator_features.html</guid>
+        <pubDate>Mon, 17 Aug 2015 00:00:00 +0100</pubDate>
+        <link>http://blog.nodule.io/blog/2015/08/17/2015-08-17-the-hacker-news-effect.html</link>
+        <guid isPermaLink="true">http://blog.nodule.io/blog/2015/08/17/2015-08-17-the-hacker-news-effect.html</guid>
         
         <category>featured</category>
         
         
-        <category>mediator</category>
-        
-        <category>feature</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;site-footer&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
- &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;subscribe&amp;quot;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;/feed.xml&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;tooltip&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;fa fa-rss&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/i&amp;gt; Subscribe!&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;inner&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;
-   &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;section&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;copyright&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;All&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;copyright&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;mailto:a-mail@mail.mail&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Dirk&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Fabisch&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/a&amp;gt; &amp;amp;copy; 2015 &amp;amp;bull; All rights reserved.&amp;lt;/section&amp;gt;&lt;/span&gt;
-   &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;section&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;poweredby&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Made&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;http://jekyllrb.com&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/a&amp;gt;&amp;lt;/section&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/footer&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-</description>
-        <pubDate>Fri, 29 Aug 2014 15:34:25 +0100</pubDate>
-        <link>http://myblog.***.***/jekyll/update/2014/08/29/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://myblog.***.***/jekyll/update/2014/08/29/welcome-to-jekyll.html</guid>
-        
-        <category>featured</category>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>blog</category>
         
       </item>
     
